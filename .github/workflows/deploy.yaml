@@ -28,8 +28,8 @@ jobs:
         with:
           aws_access_key: ${{ secrets.AWS_ACCESS_KEY }}
           aws_secret_key: ${{ secrets.AWS_SECRET_KEY }}
-          application_name: react
-          environment_name: React-env-1
+          application_name: fibanocci
+          environment_name: Fibanocci-env
           existing_bucket_name: elasticbeanstalk-eu-north-1-265072780787
           region: eu-north-1
           version_label: ${{ github.sha }}
